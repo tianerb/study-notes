@@ -1,8 +1,3 @@
----
-
-
----
-
 <h2 id="notes-for-colahs-blog--visual-information-theory-2015-09"><em>Notes for</em> <a href="http://colah.github.io/posts/2015-09-Visual-Information/">colah’s blog : Visual Information Theory (2015-09)</a></h2>
 <h3 id="visualizing-probability-distributions">Visualizing Probability Distributions</h3>
 <h3 id="aside-simpsons-paradox">Aside: Simpson’s Paradox</h3>
