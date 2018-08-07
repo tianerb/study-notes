@@ -92,8 +92,11 @@ aa,ab,ba,bb;
 length 3:
 
 aaa, aab, aba, abb, baa, bab, bba, bbb
+
 ...
+
 Then the average length spent on `a` and `b` would be closer and closer to the optimal length.
+
 >As n tends to infinity, the overhead due to rounding our code would vanish, and the number of bits per codeword would approach the entropy.
 
 We can also use more complicated tricks to approach the entropy limit, or use a different encoding scheme: [Arithmetic coding](https://en.wikipedia.org/wiki/Arithmetic_coding) 
