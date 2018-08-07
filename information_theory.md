@@ -45,6 +45,8 @@ Communicating $q$ using optimal code for $p$
 
 $H_p(q)=\sum_xq(x)\log_2\frac{1}{p(x)}$
 
+Usually, q is true distribution, p is predicted distribution. [source](https://www.youtube.com/watch?time_continue=425&v=ErfnhcEV1O8)
+
 The **Kullback–Leibler divergence** (KL divergence) of p with respect to q:
 
 $D_q(p) = H_q(p) - H(p)=\sum_xp(x)\log_2\frac{p(x)}{q(x)} = \sum_xp(x)(\log_2p(x) - \log_2q(x))$
