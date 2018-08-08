@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>compare-two-prob-dist</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><p><em><strong>Question</strong>: How to compare two probability distributions?</em></p>
+<p><a href="https://en.wikipedia.org/wiki/Statistical_distance">Wikipedia: Statistical_distance</a></p>
+<p><a href="https://statweb.stanford.edu/~souravc/Lecture2.pdf">Distances between probability measures</a></p>
+<p><a href="https://www.math.hmc.edu/~su/papers.dir/metrics.pdf">On choosing and bounding probability metrics</a> <a href="https://drive.google.com/file/d/1Dgo2er_lKY3_AIecxnLR_oaFT0KyOir0/view?usp=sharing">(bak)</a></p>
+<p><a href="http://www.aip.de/groups/soe/local/numres/bookcpdf/c14-3.pdf">Numerical Recipes in C: 14.3 Are Two Distributions Different?</a> <a href="https://drive.google.com/file/d/1cxljFo7SKOesV1vp_xaHpeKjZhnSo_5i/view?usp=sharing">(bak)</a></p>
+<h3 id="measuring-distance">Measuring Distance</h3>
+<p>KL divergence is popular.</p>
+<p>A lot of other metrics…</p>
+<h3 id="testing">Testing</h3>
+<p>Use <a href="https://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/chi2samp.htm">two sample Chi-squared test</a> or <a href="https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test">Kolmogorov-Smirnov test</a>, which are related to Chi-square distance and Kolmogorov metric.</p>
+<blockquote>
+<p>The accepted test for differences between binned distributions is the chi-square test. For continuous data as a function of a single variable, the most generally accepted test is the Kolmogorov-Smirnov test.</p>
+</blockquote>
+<h3 id="just-compare-multidimensionally">Just compare multidimensionally</h3>
+<p>mean, median, variance, percentiles, counts in each bucket</p>
+</div>
+</body>
+
+</html>
