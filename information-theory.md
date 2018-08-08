@@ -7,6 +7,11 @@ One thing to keep in mind when designing an experiment/ABtest.
 ### Codes
 ### Variable-Length Codes
 Entropy = Optimal Average Code Length = $\sum_xp(x)*\text{codeLength}(x)$
+
+Codes, Information and Probability Distribution:
+
+minimum average length of code = amount of information need to transfer  = uncertainty of prior knowledge = diffuseness of probability distribution
+
 ### The Space of Codewords
 **prefix property / prefix codes**
 
